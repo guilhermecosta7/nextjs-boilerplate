@@ -1,23 +1,41 @@
-# Next.js + Jest
+<p align="center"><img width="150px" src="public/next-js-logo.svg" />
+<h1 align="center" style="font-size: 64px;">Boilerplate</h1>
+</p>
 
-This example shows how to configure Jest to work with Next.js.
+## 🚀 Technologies
 
-This includes Next.js' built-in support for Global CSS, CSS Modules and TypeScript.
+- [Next.js](https://nextjs.org)
+- [TypeScript](https://www.typescriptlang.org)
+- [EditorConfig](https://editorconfig.org)
+- [ESLint](https://eslint.org)
+- [Prettier](https://prettier.io)
+- [lint-staged](https://github.com/okonet/lint-staged)
+- [Husky](https://typicode.github.io/husky)
+- [Jest](https://jestjs.io/)
+- [React Testing Library](https://testing-library.com/)
+- [styled-components](https://styled-components.com/)
 
-## How to Use
+## 🔥️ Starting the project
 
-Quickly get started using [Create Next App](https://github.com/vercel/next.js/tree/canary/packages/create-next-app#readme)!
-
-In your terminal, run the following command:
+Create a new application using `create next-app` with the `-e | --example` flag pointing to this repository's _url_, like so:
 
 ```bash
-npx create-next-app --example with-jest with-jest-app
-# or
-yarn create next-app --example with-jest with-jest-app
+yarn create next-app --example https://github.com/guilhermecosta7/nextjs-boilerplate
 ```
 
-## Run Jest Tests
+> **Tip:** You can find `create next-app`'s documentation at [https://nextjs.org/docs/api-reference/create-next-app](https://nextjs.org/docs/api-reference/create-next-app).
+
+### Alternative setup
+
+You can also click on the `Use this template` button.
+
+After that, clone the repository that was created on your account and follow the steps below:
 
 ```bash
-npm test
+# Installing project dependencies
+yarn install && yarn husky install
+
+# Starting the project
+yarn dev
 ```
+
