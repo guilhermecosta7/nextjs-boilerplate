@@ -1,5 +1,5 @@
 <p align="center"><img width="150px" src="public/next-js-logo.svg" />
-<h1 align="center" style="font-size: 64px;">Boilerplate</h1>
+<h1 align="center" style="font-size: 64px;">NextJS Boilerplate</h1>
 </p>
 
 ## 🚀 Technologies
